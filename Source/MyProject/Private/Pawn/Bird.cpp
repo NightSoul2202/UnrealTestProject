@@ -15,6 +15,10 @@ ABird::ABird()
 	birdMesh->SetupAttachment(GetRootComponent());
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+
+
+
 }
 
 void ABird::BeginPlay()
